@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "options",
+        "get",
+        "post",
+        "put",
+        "delete"
+      ],
+      "route": "collections/{chainId?}/{tokenAddress?}/{collectionId?}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/collections/index.js"
+}

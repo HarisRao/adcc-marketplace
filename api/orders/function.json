@@ -1,0 +1,24 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": [
+        "options",
+        "get",
+        "post",
+        "put",
+        "delete"
+      ],
+      "route": "orders/{chainId?}/{tokenAddress?}/{fromUserOnly?}"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ],
+  "scriptFile": "../dist/orders/index.js"
+}

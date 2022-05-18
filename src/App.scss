@@ -1,0 +1,463 @@
+// .main-panel {
+//   a {
+//     text-decoration: none;
+//   }
+
+//   .nav-tabs {
+//     .nav-link {
+//       color: black;
+//       cursor: pointer;
+//       border: 0;
+
+//       &:focus,
+//       &:hover,
+//       &.active {
+//         background-color: #122e53;
+//         color: #fff;
+//         border: 0;
+//       }
+//     }
+//   }
+// }
+
+
+// ADCC
+
+// Navbar and Footer //
+
+.nav-item.item {
+  border-bottom: 1px solid #929292;
+}
+
+.nav-font {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.connect-btn-color {
+  background-color: #c52723;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+}
+.connect-btn-color:active,
+.connect-btn-color:hover {
+  background-color: #c52723;
+  border: none;
+}
+.connect-btn-color:focus {
+  box-shadow: none !important;
+  background-color: #c52723 !important;
+  border: none !important;
+}
+
+.pointer {
+  cursor: pointer;
+}
+.text-color {
+  color: #929292 !important;
+}
+.bg-text-color {
+  background-color: #929292;
+}
+.nav-font {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.navbar-search::placeholder {
+  color: #929292;
+}
+.navbar-search {
+  background: transparent !important;
+  border: 1px solid #929292 !important;
+  border-radius: 20px !important;
+  font-size: 14px !important;
+}
+.search-icon {
+  position: absolute;
+  right: 16px;
+  top: 11px;
+  color: #929292 !important;
+  font-size: 14px;
+}
+.nav-logo {
+  width: 200px;
+}
+.navbar {
+  background: url('../src/images/adcc-header-background.jpg');
+}
+.nav-link {
+  padding: 4px 20px !important;
+}
+
+.bg-footer {
+  background-color: #171717;
+}
+.footer-creative-font {
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.footer-li {
+  list-style-type: none;
+  font-size: 15px;
+  font-weight: 500;
+}
+.footer-ul-header {
+  font-size: 20px;
+  font-weight: 500 !important;
+}
+.red-color {
+  color: #c52723;
+}
+.bg-red {
+  background-color: #c52723;
+}
+.footer-search {
+  background: transparent !important;
+  border: 1px solid #929292 !important;
+  border-radius: 22px !important;
+  font-size: 14px !important;
+}
+.main-bg {
+  background-color: black;
+}
+.footer-search::placeholder {
+  color: #929292;
+}
+.footer-hr {
+  border-top: 2px solid #929292;
+}
+.copyright-footer-font {
+  font-size: 14px;
+}
+.footer-icon-font {
+  font-size: 22px;
+}
+.footer-email-icon {
+  font-size: 20px;
+  position: absolute;
+  right: 10px;
+  bottom: 9px;
+}
+
+.navbar-search:focus,
+.footer-search:focus {
+  box-shadow: none !important;
+}
+
+.carousel .carousel-status {
+  display: none !important;
+}
+
+// adcc agent //
+.adcc-agent-bg {
+  background-image: url('./images/adcc-agent-banner.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.agent-btn {
+  background-color: white !important;
+  color: #c52723 !important;
+  border: none !important;
+  font-size: 17px;
+  font-weight: 600 !important;
+}
+.agent-btn:focus {
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .adcc-agent-bg {
+    background-position: bottom;
+  }
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+
+// newsletter //
+.newsletter-btn {
+  background-color: #c52723 !important;
+  color: white !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-radius: 8px !important;
+}
+.newsletter-input {
+  background: transparent !important;
+  border: 1px solid #929292 !important;
+  border-radius: 8px !important;
+  font-size: 14px !important;
+  color: #929292 !important;
+}
+.newsletter-input::placeholder {
+  color: #929292;
+}
+.newsletter-input:focus {
+  box-shadow: none !important;
+}
+.font-size-14 {
+  font-size: 14px;
+}
+.exchange-logo {
+  width: 160px;
+  height: auto;
+}
+.exchange-ul {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+// ADCC artist //
+.artist-btn {
+  background-color: #c52723 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 12px;
+}
+.artist-btn:focus {
+  box-shadow: none !important;
+}
+
+// directly drop section  //
+.directly-drop-section {
+  background-image: url('./images/directlydrop.jpg');
+  height: 350px;
+}
+.camada-img {
+  position: absolute;
+  right: 20%;
+  top: -30%;
+  width: 250px;
+}
+@media (max-width: 991px) {
+  .camada-img {
+    position: absolute;
+    right: 10%;
+    top: -27%;
+    width: 200px;
+  }
+  .directly-drop-section {
+    height: 290px;
+  }
+}
+@media (max-width: 767px) {
+  .camada-img {
+    position: absolute;
+    right: 8%;
+    top: -27%;
+    width: 164px;
+  }
+  .directly-drop-section {
+    height: 250px;
+  }
+}
+@media (max-width: 578px) {
+  .camada-img {
+    position: absolute;
+    right: 8%;
+    top: -20%;
+    width: 164px;
+  }
+  .directly-drop-section {
+    height: 250px;
+  }
+}
+
+// hall of fame card //
+
+.hall-of-fame-card-img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  min-height: 300px !important;
+  // object-fit: contain;
+}
+.hall-of-fame-invert-card-img {
+  width: auto !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  min-height: 300px !important;
+  opacity: 0.2;
+  transform: scaleY(-1);
+}
+
+.hall-of-fame-slider .react-multi-carousel-list {
+  width: 400px;
+  // width: 300px;
+  overflow: unset !important;
+}
+.hall-of-fame-slider .react-multi-carousel-item--active .hall-div {
+  transform: scale(1) !important;
+}
+.hall-of-fame-slider .react-multi-carousel-item .hall-div {
+  transition: transform 500ms ease;
+  transform: scale(0.8);
+}
+.hall-of-fame-slider .react-multi-carousel-item {
+  // padding: 60px 10px;
+  padding: 20px 0px;
+}
+
+
+
+@media (max-width:450px){
+  .hall-of-fame-slider .react-multi-carousel-list {
+    width:100%;
+  }
+}
+
+// modal //
+
+// .fVTwvS {
+//   background-color: black !important;
+// }
+
+// .KhnBF{
+//   background: #171717 !important;
+// }
+
+
+// NftCard //
+.nft-card {
+  border: 4px solid #343a4030 !important;
+  border-radius: 14px !important;
+  padding: 10px;
+}
+.nft-card-img {
+  width: 100% !important;
+  height: auto !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  min-height: 250px !important;
+  object-fit: contain;
+  border-radius: 10px !important;
+}
+.nft-owner-img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+.nft-name{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space:nowrap;
+}
+.owner-name {
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+.like-icon {
+  font-size: 20px;
+}
+.verify-icon {
+  font-size: 20px;
+  position: absolute;
+  left: 46px;
+  bottom: -8px;
+  border-radius: 10px;
+}
+
+
+// Profile and wallet //
+
+.wallet-address-font{
+  font-size: 20px;
+  word-break: break-all;
+}
+@media(max-width:578px){
+  .wallet-address-font{
+    font-size: 16px;
+  }
+}
+.wallet-tabs{
+  padding: 6px 20px !important;
+  color: white !important;
+  cursor: pointer;
+  border: none !important;
+  font-size: 18px !important;
+}
+.wallet-tabs:hover{
+  border: none !important;
+}
+.wallet-tabs.active{
+  background: #171717 !important;
+  border: none !important;
+  color: #929292 !important;
+  border-radius: 4px !important;
+}
+#image-bg-circle {
+  border-radius: 50%;
+  border: 2px dashed #c52723 !important;
+  object-fit: none;
+  background: #171717;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+}
+#circular-image {
+  width: 30%;
+}
+@media (max-width:350px){
+  .profile-section-on-small-screen{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+// @media (min-width:1500px){
+//   .col-extra-large{
+//     flex: 0 0 auto !important;
+//     width: 25% !important;
+//   }
+// }
+
+
+
+
+// link and copy //
+
+// .bTeYRq{
+//   color: #c52723 !important;
+// }
+// .laXSdQ{
+//   fill: #c52723 !important;
+// }
+// .iLIXoy{
+//   color: #c52723 !important;
+//   margin-left:15px !important;
+// }
+// .kmsPVy{
+//   background-color: #c52723 !important;
+//   color: #929292 !important;
+// }
+
+
+// card //
+// .czcaEU:before, .czcaEU:after,.czcaEU{
+//   background-color: #c52723 !important;
+// }
+// .ifEKoS{
+//   color: #c52723 !important;
+//   font-size: 20px !important;
+// }
+// .dlFtZu{
+//   background-color: #171717 !important;
+//   color: #929292 !important;
+// }
+
+
+
+// loader //
+.loader > svg{
+  fill: #c52723 !important;
+}

@@ -1,0 +1,101 @@
+/* ADCC Home */
+
+
+.carousel .control-dots .dot{
+  width:100px;
+  height:4px;
+  border-radius: 0px;
+}
+
+.banner-text{
+    border-radius: 10px;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity .35s ease-in-out;
+    position: absolute;
+    opacity: 1;
+    left:20%;
+    bottom: 35%;
+    margin-left: 0px;
+    width: auto;
+    text-align: left;
+}
+.banner-desc{
+  font-size: 14px;
+  color: #ffffff9e;
+}
+.btn-see-more-banner{
+  color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+}
+.btn-see-more-banner:active,.btn-see-more-banner:hover{
+  color: #fff;
+  border-color: #fff !important;
+  cursor: pointer;
+  background-color: transparent !important;
+}
+.btn-see-more-banner:focus{
+  box-shadow: none !important;
+}
+
+
+@media (max-width:991px){
+  .banner-text{
+    left:15%;
+    bottom:25%
+  }
+}
+
+@media (max-width:767px){
+  .banner-image{
+    height: 400px;
+    object-fit: cover;
+  }
+}
+@media (max-width:578px){
+  .banner-image{
+    height: 400px;
+    object-fit: cover;
+    object-position: 64%;
+  }
+  .banner-text{
+    left:8%;
+    bottom:25%
+  }
+  .carousel .control-dots .dot{
+    width:50px;
+  }
+}
+
+/* hall of fame section */
+.hall-of-fame-bg{
+  background-image: url('../../images/halloffame.jpg');
+}
+.hall-of-fame-header{
+  font-size: 40px;
+  font-weight: 600;
+}
+.hall-of-fame-seemore-btn{
+  background-color: #c52723 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 8px;
+  font-weight: 600 !important;
+}
+.hall-of-fame-seemore-btn:focus{
+  box-shadow: none !important;
+}
+
+.hall-card{
+  height: 350px;
+  width: 500px;
+  padding-top: 80px;
+  text-align: center;
+  background: #52C0F5;
+  color: #FFF;
+  font-size: 12px;
+  text-transform:uppercase;
+  border-radius: 10px
+}

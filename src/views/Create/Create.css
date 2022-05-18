@@ -1,0 +1,134 @@
+.img-upload {
+  cursor: pointer;
+  border: thin dashed;
+  color: grey;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+  filter: drop-shadow(0 0 2.5px rgba(19, 19, 19, 0.16));
+  border-color: #c52723
+}
+.img-upload img {
+  padding: 1px;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+.img-upload.uploaded {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.create-form{
+  border: 1px solid #c52723;
+  background-color: #171717 !important;
+  height: 45px;
+  border-radius: 8px !important;
+}
+
+.create-form::placeholder{
+  color: #929292
+}
+.create-form:focus{
+  box-shadow: none !important;
+  border: 1px solid #c52723;
+}
+
+.create-textarea {
+  border: 1px solid #c52723;
+  background-color: #171717 !important;
+  height: 45px;
+  border-radius: 8px !important;
+}
+.create-textarea::placeholder {
+  color: #929292
+}
+.create-textarea:focus,.create-textarea:hover {
+  box-shadow: none !important;
+  border: 1px solid #c52723;
+}
+
+
+.create-append-form{
+  border: 1px solid #c52723;
+  background-color: #171717 !important;
+  height: 45px;
+  border-top-right-radius: 8px !important;
+  border-bottom-right-radius: 8px !important;
+}
+.create-prepend-form{
+  border: 1px solid #c52723;
+  background-color: #171717 !important;
+  height: 45px;
+  border-top-left-radius: 8px !important;
+  border-bottom-left-radius: 8px !important;
+}
+.create-prepend-form:focus{
+  box-shadow: none;
+  border: 1px solid #c52723;
+}
+
+.payment-token {
+  display: inline-flex;
+  box-shadow: inset 0 0 30px grey;
+  -moz-box-shadow: inset 0 0 30px grey;
+  -webkit-box-shadow: inset 0 0 30px grey;
+  border-radius: 20px 10px 10px 20px;
+  background-color: #171717;
+}
+
+.payment-token-bnb {
+  height: 40px;
+}
+
+
+
+#create-save-btn {
+  background-color: #c52723;
+  border: none;
+  border-radius: 14px;
+  font-weight: 600;
+  font-size: 24px;
+}
+#create-save-btn:focus{
+  box-shadow: none;
+}
+
+.CreateCoin {
+  font-size: 22px;
+  color: white;
+  font-weight: 450 !important;
+}
+
+
+.removeUser {
+  border: none;
+  cursor: pointer;
+  background: #171717;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+  border-radius: 0.25rem;
+  font-size: 22px;
+  max-width: 52px;
+}
+.minus-icon-user{
+  color: #929292 !important;
+}
+
+
+.removeUser button {
+  background: none;
+  border: 0;
+  height: 100%;
+  cursor: pointer;
+}
+
+.create-btn{
+  background-color: #c52723;
+  border: none;
+  border-radius: 14px;
+  font-size: 18px;
+
+}
